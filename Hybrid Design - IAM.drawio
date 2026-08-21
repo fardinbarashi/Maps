@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
-    <mxGraphModel dx="3541" dy="2452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,10 +137,10 @@
         <mxCell id="FPqMHxv_qP33vrG37nPg-22" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Authentication Server" vertex="1">
           <mxGeometry height="50" width="40" x="980" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FF3333);" value="LOA 1&lt;br&gt;Username+&lt;br&gt;Password+&lt;br&gt;Fido2+" vertex="1">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FF3333);" value="LOA 3&lt;br&gt;Username+&lt;br&gt;Pin+&lt;br&gt;Fido2+" vertex="1">
           <mxGeometry height="80" width="80" x="750" y="387" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFD966);" value="LOA 2&lt;br&gt;Username+&lt;br&gt;Password+&lt;br&gt;OneTime" vertex="1">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFD966);" value="LOA 2&lt;br&gt;Username+&lt;br&gt;Password+&lt;br&gt;OneTime+" vertex="1">
           <mxGeometry height="80" width="80" x="756.3" y="555" as="geometry" />
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-53" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#66FF66);labelBorderColor=light-dark(transparent,#00994D);" target="FPqMHxv_qP33vrG37nPg-12">
