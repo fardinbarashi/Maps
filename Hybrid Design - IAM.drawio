@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
-    <mxGraphModel dx="2410" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3541" dy="2452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="4FQhoqOVi--SD7Q3llwU-11" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=light-dark(#82B366,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-26" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. Create - Modify Users&lt;br&gt;JML" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-26" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. JML :&amp;nbsp;&lt;br&gt;Join&lt;br&gt;Move&lt;br&gt;Leave" vertex="1">
           <mxGeometry relative="1" x="-0.0933" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -98,9 +98,9 @@
         <mxCell id="4FQhoqOVi--SD7Q3llwU-18" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=light-dark(#005700,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-20" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Middleware, format and send data to&amp;nbsp;" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-20" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.&amp;nbsp;&lt;br&gt;Middleware, format and send data to&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" x="-0.3754" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-24" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#008a00;strokeColor=light-dark(#005700,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-21">
@@ -111,7 +111,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="Database &amp;amp; Middleware, contain the user data" vertex="1">
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-6" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.4019" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="Database &amp;amp; Middleware&lt;br&gt;- Verify data&lt;br&gt;- contain the user data" vertex="1">
           <mxGeometry height="37" width="50" x="-60" y="430" as="geometry" />
         </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-21" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essentials-2657/Essentials_Folder-588.svg" value="" vertex="1">
@@ -403,7 +408,7 @@
         <mxCell id="FPqMHxv_qP33vrG37nPg-107" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4FQhoqOVi--SD7Q3llwU-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-108" connectable="0" parent="FPqMHxv_qP33vrG37nPg-107" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Employment LOA3" vertex="1">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-108" connectable="0" parent="FPqMHxv_qP33vrG37nPg-107" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Employment:&amp;nbsp; Emloyee LOA3" vertex="1">
           <mxGeometry relative="1" x="-0.2462" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -414,13 +419,13 @@
         <mxCell id="FPqMHxv_qP33vrG37nPg-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
           <mxGeometry height="30" width="60" x="610" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-114" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);fontColor=light-dark(#000000,#FF9999);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-0---identity-control-plane&quot; class=&quot;heading-anchor&quot;&gt;Tier 0 - Identity control plane&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;Tier 0 contains assets and identities that directly or indirectly control the directory service and enterprise-wide permissions:&lt;/p&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Tier 0 administrative accounts and groups, including built-in Active&lt;br&gt; Directory groups such as Backup Operators and Server Operators.&lt;/li&gt;&lt;li&gt;AD DS domain controllers and core directory service components.&lt;/li&gt;&lt;li&gt;Identity services such as Microsoft Entra Connect, Microsoft Entra &lt;br&gt;application proxy, Active Directory Federation Services (AD FS), and &lt;br&gt;Active Directory Certificate Services (AD CS).&lt;/li&gt;&lt;li&gt;Systems that operate or manage Tier 0 identity systems, including &lt;br&gt;backup, monitoring, patching, hypervisor, antivirus, and endpoint &lt;br&gt;detection and response (EDR) solutions, or any agent with direct &lt;br&gt;operating system-level or AD-object-level control.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="430" width="430" x="-190" y="-600" as="geometry" />
+        <mxCell id="FPqMHxv_qP33vrG37nPg-114" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);fontColor=light-dark(#000000,#FF9999);align=left;" value="&lt;h3 id=&quot;tier-0---identity-control-plane&quot; class=&quot;heading-anchor&quot; align=&quot;left&quot;&gt;Tier 0 - Identity control plane&lt;/h3&gt;&lt;div align=&quot;left&quot;&gt;Tier 0 contains assets and identities that directly or indirectly control the directory service and enterprise-wide permissions:&lt;br&gt;&lt;br&gt;AD Tier 0 :&amp;nbsp;&lt;br&gt;administrative accounts and groups, including built-in Active&lt;br&gt;Directory groups such as Backup Operators and Server Operators.&lt;br&gt;Exclude Tier 0 from sync&lt;br&gt;AD CD Off-line root CA&lt;br&gt;Deny Logon from Tier 1 and Tier 2&lt;br&gt;&lt;br&gt;&lt;br&gt;Cloud Tier 0 :&amp;nbsp;&amp;nbsp;&lt;br&gt;Admin roles ( Globald admin, inte admin etc.. not synked to AD )&lt;br&gt;2 Break-glass accounts is excluded in the CA&lt;br&gt;Pim and JIT is enabled&lt;br&gt;&lt;br&gt;Other :&amp;nbsp;&lt;br&gt;Access reviws on priv role&lt;br&gt;Server as :&amp;nbsp;&lt;br&gt;AD DS domain controllers and core directory service components.&lt;br&gt;Identity services such as Microsoft Entra Connect, Microsoft Entra&lt;br&gt;application proxy, Active Directory Federation Services (AD FS), and&lt;br&gt;Active Directory Certificate Services (AD CS).&lt;br&gt;Systems that operate or manage Tier 0 identity systems, including&lt;br&gt;backup, monitoring, patching, hypervisor, antivirus, and endpoint&lt;br&gt;detection and response (EDR) solutions, or any agent with direct&lt;br&gt;operating system-level or AD-object-level control.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="440" x="-255" y="-600" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-115" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#FAFFBA);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;Tier 1 - Enterprise server and application management&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;Tier 1 contains member servers and the identities that manage them:&lt;/p&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Member servers and server administrator roles.&lt;/li&gt;&lt;li&gt;IT infrastructure management (ITIM) solutions that control Tier 1 servers.&lt;/li&gt;&lt;li&gt;Microsoft server applications such as Exchange Server, SharePoint Server, and SQL Server.&lt;/li&gt;&lt;li&gt;Third-party server solutions.&lt;/li&gt;&lt;li&gt;LOB applications.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="340" width="340" x="330" y="-600" as="geometry" />
+        <mxCell id="FPqMHxv_qP33vrG37nPg-115" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#FAFFBA);align=left;" value="&lt;div class=&quot;heading-wrapper&quot; align=&quot;left&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;Tier 1 - Enterprise server and application management&lt;/h3&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;p&gt;Tier 1 contains member servers and the identities that manage them:&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;AD Tier 1 :&lt;br&gt;&lt;div&gt;Member servers and server administrator roles.&lt;br&gt;IT infrastructure management (ITIM) solutions that control Tier 1 servers.&lt;br&gt;Microsoft server applications such as Exchange Server, SharePoint Server, and SQL Server.&lt;br&gt;Third-party server solutions.&lt;br&gt;LOB applications.&lt;br&gt;Deny Logon from Tier 0 and Tier 2&lt;br&gt;Windows LAPS&lt;/div&gt;&lt;br&gt;Cloud Tier 1:&amp;nbsp;&lt;br&gt;GSMA Service Accounts&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="400" x="280" y="-580" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-116" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#97D077);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-2---end-user-account-and-device-support&quot; class=&quot;heading-anchor&quot;&gt;Tier 2 - End-user account and device support&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p align=&quot;left&quot;&gt;Tier 2 contains the identities that manage end-user devices and &lt;br&gt;accounts, including help desk and device support roles, end-user device &lt;br&gt;administrator roles, and end-user account administrator roles.&lt;/p&gt;" vertex="1">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-116" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#97D077);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-2---end-user-account-and-device-support&quot; class=&quot;heading-anchor&quot;&gt;Tier 2 - End-user account and device support&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p align=&quot;left&quot;&gt;Tier 2 contains the identities that manage end-user devices and &lt;br&gt;accounts, including help desk and device support roles, end-user device &lt;br&gt;administrator roles, and end-user account administrator roles.&lt;br&gt;&lt;br&gt;Deny Logon from Tier 0 and Tier 1&lt;br&gt;&lt;br&gt;GSMA Service Accounts&lt;/p&gt;" vertex="1">
           <mxGeometry height="284.6" width="284.6" x="760" y="-600" as="geometry" />
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-117" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-model-design-principles&quot; class=&quot;heading-anchor&quot;&gt;Tier model design principles&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;Apply these principles when you decide whether an asset, account, or solution belongs in a particular tier:&lt;/p&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Least privilege within each tier.&lt;/strong&gt; Even within Tier 0, not every account needs Domain Admins rights. Scope permissions to the minimum required for each role.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No shared credentials across tiers.&lt;/strong&gt; An account, &lt;br&gt;service account, or group must operate in a single tier. Reusing &lt;br&gt;credentials across tiers collapses the trust boundary.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No line-of-business workloads in Tier 0.&lt;/strong&gt; Application servers, business apps, and general-purpose workloads belong in Tier 1, even when an AD admin owns them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Separation of duties.&lt;/strong&gt; Keep operators, approvers, &lt;br&gt;and auditors as distinct roles, especially in Tier 0. Avoid &lt;br&gt;concentrating all privileged functions in a single team.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Containment, not perimeter, is the boundary.&lt;/strong&gt; &lt;br&gt;Network segmentation supports the model but doesn&#39;t replace it. The &lt;br&gt;credential and the keyboard define the tier, not the IP address&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
@@ -475,6 +480,17 @@
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-146" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);fontColor=light-dark(#000000,#FF9999);" value="&lt;br&gt;&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;CA&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;Managed Client + Device&lt;br&gt;M365 Auth with new login and every day" vertex="1">
           <mxGeometry height="140" width="140" x="1245.38" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-2" edge="1" parent="1" source="OV2fOHU2kHmPlnmYA2Vf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="4FQhoqOVi--SD7Q3llwU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-5" connectable="0" parent="OV2fOHU2kHmPlnmYA2Vf-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Employment:&amp;nbsp; Consultants" vertex="1">
+          <mxGeometry relative="1" x="-0.6647" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-1" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" value="Manager" vertex="1">
+          <mxGeometry height="37" width="50" x="-382" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
