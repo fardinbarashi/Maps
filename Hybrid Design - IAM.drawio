@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
-    <mxGraphModel dx="4368" dy="2452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4821" dy="2666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#FFFF33);" value="" vertex="1">
-          <mxGeometry height="340" width="120" x="360" y="490" as="geometry" />
+          <mxGeometry height="340" width="160" x="345" y="490" as="geometry" />
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#33FF33);" value="" vertex="1">
           <mxGeometry height="340" width="310" x="267.5" y="867" as="geometry" />
@@ -113,7 +113,7 @@
         <mxCell id="FPqMHxv_qP33vrG37nPg-15" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Server / App Admin&lt;/font&gt;" vertex="1">
           <mxGeometry height="37" width="37" x="401.5" y="518" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="App-Server 1" vertex="1">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="DB / WEB / APP-Server" vertex="1">
           <mxGeometry height="50" width="40" x="404" y="610" as="geometry" />
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-103" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#4C0099);strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-102">
