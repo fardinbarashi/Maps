@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
-    <mxGraphModel dx="4821" dy="2666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3237" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,24 +116,24 @@
         <mxCell id="FPqMHxv_qP33vrG37nPg-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="DB / WEB / APP-Server" vertex="1">
           <mxGeometry height="50" width="40" x="404" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-103" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#4C0099);strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-102">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-103" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#4C0099);strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="FPqMHxv_qP33vrG37nPg-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="422.5" y="1270" />
+              <mxPoint x="363" y="1140" />
+              <mxPoint x="360" y="1140" />
+              <mxPoint x="360" y="1270" />
               <mxPoint x="-90" y="1270" />
               <mxPoint x="-90" y="760" />
               <mxPoint x="240" y="760" />
               <mxPoint x="240" y="415" />
             </Array>
+            <mxPoint x="422.5" y="1050" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-104" connectable="0" parent="FPqMHxv_qP33vrG37nPg-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Zero trust certificate-based authentication (CBA) for computers " vertex="1">
           <mxGeometry relative="1" x="0.3142" y="-1" as="geometry">
             <mxPoint x="-142" y="156" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FPqMHxv_qP33vrG37nPg-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" value="Client" vertex="1">
-          <mxGeometry height="50" width="45" x="400" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-77" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#000000,#666600);strokeWidth=2;" target="4FQhoqOVi--SD7Q3llwU-9">
           <mxGeometry relative="1" as="geometry">
@@ -330,6 +330,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-120" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=3;strokeColor=light-dark(#000000,#999900);" target="FPqMHxv_qP33vrG37nPg-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="619" />
+              <mxPoint x="580" y="751.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-21" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Multifactor_Authentication.svg;" value="MS Auth" vertex="1">
           <mxGeometry height="68" width="55.400000000000006" x="649.9999999999999" y="585" as="geometry" />
         </mxCell>
@@ -393,6 +401,33 @@
         </mxCell>
         <mxCell id="FPqMHxv_qP33vrG37nPg-117" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-model-design-principles&quot; class=&quot;heading-anchor&quot;&gt;Tier model design principles&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;Apply these principles when you decide whether an asset, account, or solution belongs in a particular tier:&lt;/p&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Least privilege within each tier.&lt;/strong&gt; Even within Tier 0, not every account needs Domain Admins rights. Scope permissions to the minimum required for each role.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No shared credentials across tiers.&lt;/strong&gt; An account, &lt;br&gt;service account, or group must operate in a single tier. Reusing &lt;br&gt;credentials across tiers collapses the trust boundary.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No line-of-business workloads in Tier 0.&lt;/strong&gt; Application servers, business apps, and general-purpose workloads belong in Tier 1, even when an AD admin owns them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Separation of duties.&lt;/strong&gt; Keep operators, approvers, &lt;br&gt;and auditors as distinct roles, especially in Tier 0. Avoid &lt;br&gt;concentrating all privileged functions in a single team.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Containment, not perimeter, is the boundary.&lt;/strong&gt; &lt;br&gt;Network segmentation supports the model but doesn&#39;t replace it. The &lt;br&gt;credential and the keyboard define the tier, not the IP address&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="520" width="520" x="-934" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-132" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-125" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#f8cecc;labelBorderColor=#b85450;imageBackground=default;imageBorder=light-dark(#000000,#660000);" value="TIER 0" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="1287.38" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-131" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FPqMHxv_qP33vrG37nPg-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-126" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#fad7ac;labelBorderColor=#b46504;imageBorder=light-dark(#000000,#CCCC00);" value="TIER 2" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="934" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-134" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-127" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#d5e8d4;labelBorderColor=#82b366;imageBorder=light-dark(#000000,#009900);" value="TIER 3" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="1590" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-130" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#dae8fc;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/azure/1/Avere_vFXT.svg;labelBorderColor=#6c8ebf;" value="Azure Apps and Services" vertex="1">
+          <mxGeometry height="80" width="110.77" x="1260" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-135" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Device_Compliance.svg;" value="Managed device" vertex="1">
+          <mxGeometry height="68" width="62" x="470" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-137" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="Managed client" vertex="1">
+          <mxGeometry height="30" width="50" x="338" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
