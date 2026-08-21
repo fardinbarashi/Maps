@@ -1,35 +1,49 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
-    <mxGraphModel dx="2727" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3062" dy="2225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FPqMHxv_qP33vrG37nPg-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#FFFF33);" value="" vertex="1">
+          <mxGeometry height="340" width="120" x="360" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#33FF33);" value="" vertex="1">
+          <mxGeometry height="340" width="120" x="360" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#CC0000);" value="" vertex="1">
+          <mxGeometry height="340" width="120" x="360" y="127" as="geometry" />
+        </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-4" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/databases/1/DocumentDB.svg" value="Source Data" vertex="1">
           <mxGeometry height="61" width="46" x="80" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-6" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="4FQhoqOVi--SD7Q3llwU-7" value="">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-6" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;startSize=7;" target="4FQhoqOVi--SD7Q3llwU-7" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="350" y="430" as="sourcePoint" />
             <mxPoint x="250" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-8" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sending daily file with users in the Org" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-8" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Sending daily file with users in the Org" vertex="1">
           <mxGeometry relative="1" x="-0.1736" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-11" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4FQhoqOVi--SD7Q3llwU-10" value="">
+        <mxCell id="FPqMHxv_qP33vrG37nPg-1" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.3531" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-11" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" target="4FQhoqOVi--SD7Q3llwU-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-26" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Create - Modify Users&lt;br&gt;JML" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-26" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. Create - Modify Users&lt;br&gt;JML" vertex="1">
           <mxGeometry relative="1" x="-0.0933" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-22" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4FQhoqOVi--SD7Q3llwU-21">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-22" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" target="4FQhoqOVi--SD7Q3llwU-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-23" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Store file" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-23" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. Store file" vertex="1">
           <mxGeometry relative="1" x="0.0637" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -40,38 +54,122 @@
         <mxCell id="4FQhoqOVi--SD7Q3llwU-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" value="Entra ID" vertex="1">
           <mxGeometry height="64" width="70" x="600" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-12" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4FQhoqOVi--SD7Q3llwU-9">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-12" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" target="4FQhoqOVi--SD7Q3llwU-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-13" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync Users, Groups" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-13" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync Users, Groups, settings, passwords.." vertex="1">
           <mxGeometry relative="1" x="-0.3493" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="64" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Active Directory" vertex="1">
           <mxGeometry height="50" width="40" x="400" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-18" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="4FQhoqOVi--SD7Q3llwU-7">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-18" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;" target="4FQhoqOVi--SD7Q3llwU-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-20" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Middleware send data to&amp;nbsp;" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-20" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 Middleware, format and send data to&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" x="-0.3754" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-24" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="4FQhoqOVi--SD7Q3llwU-21">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-24" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#008a00;strokeColor=#005700;" target="4FQhoqOVi--SD7Q3llwU-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FQhoqOVi--SD7Q3llwU-25" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Import file to database" vertex="1">
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-25" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. Import file to database" vertex="1">
           <mxGeometry relative="1" x="0.2144" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="Database &amp;amp; Middleware, contain the user data" vertex="1">
-          <mxGeometry height="37" width="50" x="-30" y="360" as="geometry" />
+          <mxGeometry height="37" width="50" x="-60" y="430" as="geometry" />
         </mxCell>
         <mxCell id="4FQhoqOVi--SD7Q3llwU-21" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essentials-2657/Essentials_Folder-588.svg" value="" vertex="1">
           <mxGeometry height="30" width="30" x="-20" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 0" vertex="1">
+          <mxGeometry height="30" width="60" x="384" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 1" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 2" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Exchange" vertex="1">
+          <mxGeometry height="50" width="40" x="404" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-14" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Azure_AD_Roles_and_Administrators.svg;" value="Domain Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-15" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;" value="Server Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="400" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-37" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-38" connectable="0" parent="FPqMHxv_qP33vrG37nPg-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Logs in to a MGMT Page" vertex="1">
+          <mxGeometry relative="1" x="-0.2481" y="3" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;" value="App Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="404" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="App-Server 1" vertex="1">
+          <mxGeometry height="50" width="40" x="404" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="45" x="400" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-20" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" value="Authentication Methods" vertex="1">
+          <mxGeometry height="66" width="68" x="750" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-21" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Multifactor_Authentication.svg;" value="MFA" vertex="1">
+          <mxGeometry height="68" width="55.400000000000006" x="756.3" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-22" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Authentication Server" vertex="1">
+          <mxGeometry height="50" width="40" x="930" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FF3333);" value="LOA 1" vertex="1">
+          <mxGeometry height="80" width="80" x="750" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFD966);" value="LOA 2" vertex="1">
+          <mxGeometry height="80" width="80" x="756.3" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-25" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#33FF33);" value="LOA 3" vertex="1">
+          <mxGeometry height="80" width="80" x="756.3" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-26" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Azure_AD_Roles_and_Administrators.svg;strokeColor=light-dark(#000000,#FF3333);imageBorder=#FF3333;" value="Domain Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="1190" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-27" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;imageBorder=default;" value="Server Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="1190" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-28" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" value="User" vertex="1">
+          <mxGeometry height="30" width="30" x="407" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-31" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="FPqMHxv_qP33vrG37nPg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-34" connectable="0" parent="FPqMHxv_qP33vrG37nPg-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AUTH LOA 2" vertex="1">
+          <mxGeometry relative="1" x="-0.6564" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-29" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/integration/1/Websites-258.svg" value="&amp;nbsp;MGMT Page" vertex="1">
+          <mxGeometry height="38" width="51" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-33" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="FPqMHxv_qP33vrG37nPg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-36" connectable="0" parent="FPqMHxv_qP33vrG37nPg-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.3225" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-35" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;" value="App Admin" vertex="1">
+          <mxGeometry height="37" width="37" x="1190" y="680.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
