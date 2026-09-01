@@ -1,0 +1,498 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sida-1" id="VvKH0_Ko6RLLbAIxhJ5K">
+    <mxGraphModel dx="3541" dy="2452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FPqMHxv_qP33vrG37nPg-152" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=light-dark(#000000,#999900);dashed=1;dashPattern=1 1;" target="FPqMHxv_qP33vrG37nPg-130" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-145" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#FAFFBA);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;CA&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;Managed Client + Device&lt;br&gt;M365 Auth with new login and every day" vertex="1">
+          <mxGeometry height="133.38" width="133.38" x="1030" y="-36.69" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-49" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.848;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;imageBorder=#00CC66;strokeColor=light-dark(#00FF00,#99FF99);labelBorderColor=light-dark(transparent,#99FF99);" target="FPqMHxv_qP33vrG37nPg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-81" connectable="0" parent="FPqMHxv_qP33vrG37nPg-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;LOA 2 : User Auth Request&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3208" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#FFFF33);" value="" vertex="1">
+          <mxGeometry height="340" width="160" x="345" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#33FF33);" value="" vertex="1">
+          <mxGeometry height="340" width="310" x="267.5" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#CC0000);" value="" vertex="1">
+          <mxGeometry height="340" width="120" x="360" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-4" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/databases/1/DocumentDB.svg" value="Source Data" vertex="1">
+          <mxGeometry height="61" width="46" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-6" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=light-dark(#2D7600,#B1B1B1);startSize=7;" target="4FQhoqOVi--SD7Q3llwU-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="250" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-8" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Sending daily file with users in the Org" vertex="1">
+          <mxGeometry relative="1" x="-0.1736" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-1" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.3531" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-11" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=light-dark(#82B366,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-26" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. JML :&amp;nbsp;&lt;br&gt;Join&lt;br&gt;Move&lt;br&gt;Leave" vertex="1">
+          <mxGeometry relative="1" x="-0.0933" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-22" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=light-dark(#005700,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-23" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. Store file" vertex="1">
+          <mxGeometry relative="1" x="0.0637" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Onboardingserver" vertex="1">
+          <mxGeometry height="50" width="40" x="170" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-141" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;strokeColor=light-dark(#000000,#990000);strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-143" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#006600);dashed=1;dashPattern=1 1;strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="260.08" />
+              <mxPoint x="1760" y="260.08" />
+              <mxPoint x="1760" y="36" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" value="Entra ID" vertex="1">
+          <mxGeometry height="64" width="70" x="730" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-12" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=light-dark(#82B366,#FFFFFF);entryX=0;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" target="4FQhoqOVi--SD7Q3llwU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-13" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync Users, Groups, settings, passwords.." vertex="1">
+          <mxGeometry relative="1" x="-0.3493" y="-1" as="geometry">
+            <mxPoint x="64" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Active Directory" vertex="1">
+          <mxGeometry height="50" width="40" x="400" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-18" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=light-dark(#005700,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-20" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.&amp;nbsp;&lt;br&gt;Middleware, format and send data to&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.3754" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-24" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#008a00;strokeColor=light-dark(#005700,#FFFFFF);" target="4FQhoqOVi--SD7Q3llwU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-25" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. Import file to database" vertex="1">
+          <mxGeometry relative="1" x="0.2144" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-6" connectable="0" parent="4FQhoqOVi--SD7Q3llwU-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.4019" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" value="Database &amp;amp; Middleware&lt;br&gt;- Verify data&lt;br&gt;- contain the user data" vertex="1">
+          <mxGeometry height="37" width="50" x="-60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQhoqOVi--SD7Q3llwU-21" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Essentials-2657/Essentials_Folder-588.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-20" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 0" vertex="1">
+          <mxGeometry height="30" width="60" x="385.5" y="127" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 1" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIER 2" vertex="1">
+          <mxGeometry height="30" width="60" x="388" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Exchange" vertex="1">
+          <mxGeometry height="50" width="40" x="404" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-14" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Azure_AD_Roles_and_Administrators.svg;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Domain / Enterprise Admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="37" width="37" x="400" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-15" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Server / App Admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="37" width="37" x="401.5" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="DB / WEB / APP-Server" vertex="1">
+          <mxGeometry height="50" width="40" x="404" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-103" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#4C0099);strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="FPqMHxv_qP33vrG37nPg-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="1140" />
+              <mxPoint x="360" y="1140" />
+              <mxPoint x="360" y="1270" />
+              <mxPoint x="-90" y="1270" />
+              <mxPoint x="-90" y="760" />
+              <mxPoint x="240" y="760" />
+              <mxPoint x="240" y="415" />
+            </Array>
+            <mxPoint x="422.5" y="1050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-104" connectable="0" parent="FPqMHxv_qP33vrG37nPg-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Zero trust certificate-based authentication (CBA) for computers " vertex="1">
+          <mxGeometry relative="1" x="0.3142" y="-1" as="geometry">
+            <mxPoint x="-142" y="156" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-77" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#000000,#666600);strokeWidth=2;" target="4FQhoqOVi--SD7Q3llwU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-78" connectable="0" parent="FPqMHxv_qP33vrG37nPg-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=light-dark(#000000,#666600);" value="LOA 2 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.4993" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-45" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#FF0000,#FF3333);dashed=1;dashPattern=8 8;strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="550.03" />
+              <mxPoint x="905" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-48" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#00FF00,#66FF66);dashed=1;dashPattern=8 8;labelBorderColor=light-dark(transparent,#33FF33);strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="991.08" y="640" />
+              <mxPoint x="920" y="640" />
+              <mxPoint x="920" y="763" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-22" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Authentication Server" vertex="1">
+          <mxGeometry height="50" width="40" x="980" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-91" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=light-dark(#000000,#990000);" target="FPqMHxv_qP33vrG37nPg-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FF3333);" value="LOA 3&lt;br&gt;Username+&lt;br&gt;Pin+&lt;br&gt;Fido2+" vertex="1">
+          <mxGeometry height="80" width="80" x="750" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-90" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=light-dark(#000000,#999900);" target="FPqMHxv_qP33vrG37nPg-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730.86" y="595" />
+              <mxPoint x="730.86" y="560.03" />
+              <mxPoint x="700.03" y="560.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFD966);" value="LOA 2&lt;br&gt;Username+&lt;br&gt;Password+&lt;br&gt;OneTime+" vertex="1">
+          <mxGeometry height="80" width="80" x="756.3" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-53" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#006600);labelBorderColor=light-dark(transparent,#00994D);strokeWidth=3;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680.03" y="760.03" />
+              <mxPoint x="610.03" y="760.03" />
+              <mxPoint x="610.03" y="952.03" />
+            </Array>
+            <mxPoint x="680" y="660" as="sourcePoint" />
+            <mxPoint x="600" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-56" connectable="0" parent="FPqMHxv_qP33vrG37nPg-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=light-dark(#000000,#00331A);fontStyle=1" value="LOA 2 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.6307" y="1" as="geometry">
+            <mxPoint x="-71" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-25" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#33FF33);" value="LOA 2&lt;br&gt;Username+&amp;nbsp;&lt;br&gt;Password+" vertex="1">
+          <mxGeometry height="80" width="80" x="756.3" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-42" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#FF0000,#FF9999);" target="FPqMHxv_qP33vrG37nPg-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-93" connectable="0" parent="FPqMHxv_qP33vrG37nPg-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;LOA 3 : Tier 0 Auth Request&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0906" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-26" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Azure_AD_Roles_and_Administrators.svg;strokeColor=light-dark(#000000,#FF3333);imageBorder=#FF3333;" value="TIER 0 ( Domain Admins )" vertex="1">
+          <mxGeometry height="37" width="37" x="1190" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-51" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#FFFF00,#FFFF99);fillColor=#60a917;" target="FPqMHxv_qP33vrG37nPg-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-87" connectable="0" parent="FPqMHxv_qP33vrG37nPg-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;LOA 2 : Tier 1 Auth Request&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1415" y="-1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-27" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;imageBorder=default;" value="TIER 1 ( Server Admin )" vertex="1">
+          <mxGeometry height="37" width="37" x="1191.5" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-33" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#999900);exitX=-0.048;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-36" connectable="0" parent="FPqMHxv_qP33vrG37nPg-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=light-dark(#000000,#666600);fontStyle=1" value="LOA 2 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.3225" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-35" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Custom_Azure_AD_Roles.svg;imageBorder=#00FF00;" value="TIER 1 ( App Admins )" vertex="1">
+          <mxGeometry height="37" width="37" x="1191.5" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-40" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;User / Helpdesk Workstation Admins &amp;amp; Device Admins&lt;/font&gt;" vertex="1">
+          <mxGeometry height="32.81" width="30" x="401.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-41" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;imageBackground=none;imageBorder=#00CC66;" value="Tier 2 ( User )&amp;nbsp;" vertex="1">
+          <mxGeometry height="43.75" width="40" x="1190" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-47" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#2D7600,#FFFF00);dashed=1;dashPattern=8 8;fillColor=#60a917;strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="582.7" />
+              <mxPoint x="930" y="620" />
+              <mxPoint x="908.17" y="620" />
+              <mxPoint x="908.17" y="600" />
+            </Array>
+            <mxPoint x="850" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-54" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.862;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#990000);strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-57" connectable="0" parent="FPqMHxv_qP33vrG37nPg-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=light-dark(#000000,#330000);fontStyle=1" value="LOA 3 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.0879" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-58" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;labelBorderColor=light-dark(transparent,#42FF3F);fontColor=light-dark(#000000,#42FF3F);strokeColor=light-dark(#000000,#FFFF66);" target="FPqMHxv_qP33vrG37nPg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-83" connectable="0" parent="FPqMHxv_qP33vrG37nPg-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;LOA 2 : Tier 1 Auth Request&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0696" as="geometry">
+            <mxPoint x="24" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-74" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#990000);dashed=1;strokeWidth=2;" target="4FQhoqOVi--SD7Q3llwU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623.58" y="340" />
+              <mxPoint x="765" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-75" connectable="0" parent="FPqMHxv_qP33vrG37nPg-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=light-dark(#000000,#330000);" value="LOA 3 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="-0.3492" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-59" parent="1" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.usb;" value="" vertex="1">
+          <mxGeometry height="18.4" width="52.8" x="597.2" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-63" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/integration/1/Websites-258.svg" value="Services" vertex="1">
+          <mxGeometry height="38" width="51" x="20" y="1086" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-67" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-64" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/additional-or-support/1/SSO.svg" value="" vertex="1">
+          <mxGeometry height="66" width="48" x="160" y="1072" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-66" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;" target="FPqMHxv_qP33vrG37nPg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-69" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF9999);entryX=0;entryY=0;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-68" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;imageBorder=light-dark(#000000,#FF9999);" value="TIER 0 - MGMT /&amp;nbsp;PAW " vertex="1">
+          <mxGeometry height="50" width="40" x="960" y="344.2" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-71" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFF99);" target="FPqMHxv_qP33vrG37nPg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-70" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;imageBorder=light-dark(#000000,#FFFF99);" value="TIER 1 - MGMT&amp;nbsp; /&amp;nbsp;PAW " vertex="1">
+          <mxGeometry height="50" width="40" x="1070" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-79" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#000000,#006600);strokeWidth=2;exitX=0.863;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.988;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" target="4FQhoqOVi--SD7Q3llwU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697.81" y="700.06" />
+              <mxPoint x="710.06" y="700.06" />
+              <mxPoint x="710.06" y="859.94" />
+              <mxPoint x="1310.06" y="859.94" />
+              <mxPoint x="1310.06" y="320.06" />
+              <mxPoint x="880.06" y="320.06" />
+              <mxPoint x="880.06" y="240.06" />
+              <mxPoint x="799.19" y="240.06" />
+            </Array>
+            <mxPoint x="800" y="219.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-80" connectable="0" parent="FPqMHxv_qP33vrG37nPg-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=light-dark(transparent,#006600);labelBorderColor=light-dark(#000000,#006633);" value="LOA 2 : Auth Granted" vertex="1">
+          <mxGeometry relative="1" x="0.0466" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-120" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=3;strokeColor=light-dark(#000000,#999900);" target="FPqMHxv_qP33vrG37nPg-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="619" />
+              <mxPoint x="580" y="751.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-21" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Multifactor_Authentication.svg;" value="MS Auth" vertex="1">
+          <mxGeometry height="68" width="55.400000000000006" x="649.9999999999999" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-86" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FFFF99);dashed=1;dashPattern=8 8;strokeWidth=2;" target="FPqMHxv_qP33vrG37nPg-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908.17" y="570.03" />
+              <mxPoint x="908.17" y="583.62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-88" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.698;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#006600);strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-96" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#fad7ac;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/integration/1/Websites-258.svg;labelBorderColor=#b46504;imageBackground=default;" value="&amp;nbsp;MGMT Page" vertex="1">
+          <mxGeometry height="38" width="51" x="394.5" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-98" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-13" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.009;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.986;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" target="FPqMHxv_qP33vrG37nPg-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="710" as="sourcePoint" />
+            <mxPoint x="810" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-99" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-11" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="360" as="sourcePoint" />
+            <mxPoint x="810" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-101" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-12" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="950" as="sourcePoint" />
+            <mxPoint x="810" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-102" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" value="Certificate Server" vertex="1">
+          <mxGeometry height="50" width="40" x="403" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-107" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4FQhoqOVi--SD7Q3llwU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-108" connectable="0" parent="FPqMHxv_qP33vrG37nPg-107" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Employment:&amp;nbsp; Emloyee LOA3" vertex="1">
+          <mxGeometry relative="1" x="-0.2462" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-106" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Groups.svg;" value="" vertex="1">
+          <mxGeometry height="56.00000000000001" width="68" x="-400" y="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-114" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);fontColor=light-dark(#000000,#FF9999);align=left;" value="&lt;h3 id=&quot;tier-0---identity-control-plane&quot; class=&quot;heading-anchor&quot; align=&quot;left&quot;&gt;Tier 0 - Identity control plane&lt;/h3&gt;&lt;div align=&quot;left&quot;&gt;Tier 0 contains assets and identities that directly or indirectly control the directory service and enterprise-wide permissions:&lt;br&gt;&lt;br&gt;AD Tier 0 :&amp;nbsp;&lt;br&gt;administrative accounts and groups, including built-in Active&lt;br&gt;Directory groups such as Backup Operators and Server Operators.&lt;br&gt;Exclude Tier 0 from sync&lt;br&gt;AD CD Off-line root CA&lt;br&gt;Deny Logon from Tier 1 and Tier 2&lt;br&gt;&lt;br&gt;&lt;br&gt;Cloud Tier 0 :&amp;nbsp;&amp;nbsp;&lt;br&gt;Admin roles ( Globald admin, inte admin etc.. not synked to AD )&lt;br&gt;2 Break-glass accounts is excluded in the CA&lt;br&gt;Pim and JIT is enabled&lt;br&gt;&lt;br&gt;Other :&amp;nbsp;&lt;br&gt;Access reviws on priv role&lt;br&gt;Server as :&amp;nbsp;&lt;br&gt;AD DS domain controllers and core directory service components.&lt;br&gt;Identity services such as Microsoft Entra Connect, Microsoft Entra&lt;br&gt;application proxy, Active Directory Federation Services (AD FS), and&lt;br&gt;Active Directory Certificate Services (AD CS).&lt;br&gt;Systems that operate or manage Tier 0 identity systems, including&lt;br&gt;backup, monitoring, patching, hypervisor, antivirus, and endpoint&lt;br&gt;detection and response (EDR) solutions, or any agent with direct&lt;br&gt;operating system-level or AD-object-level control.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="440" width="440" x="-255" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-115" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#FAFFBA);align=left;" value="&lt;div class=&quot;heading-wrapper&quot; align=&quot;left&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;Tier 1 - Enterprise server and application management&lt;/h3&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;p&gt;Tier 1 contains member servers and the identities that manage them:&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;AD Tier 1 :&lt;br&gt;&lt;div&gt;Member servers and server administrator roles.&lt;br&gt;IT infrastructure management (ITIM) solutions that control Tier 1 servers.&lt;br&gt;Microsoft server applications such as Exchange Server, SharePoint Server, and SQL Server.&lt;br&gt;Third-party server solutions.&lt;br&gt;LOB applications.&lt;br&gt;Deny Logon from Tier 0 and Tier 2&lt;br&gt;Windows LAPS&lt;/div&gt;&lt;br&gt;Cloud Tier 1:&amp;nbsp;&lt;br&gt;GSMA Service Accounts&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="400" x="280" y="-580" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-116" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#97D077);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-2---end-user-account-and-device-support&quot; class=&quot;heading-anchor&quot;&gt;Tier 2 - End-user account and device support&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p align=&quot;left&quot;&gt;Tier 2 contains the identities that manage end-user devices and &lt;br&gt;accounts, including help desk and device support roles, end-user device &lt;br&gt;administrator roles, and end-user account administrator roles.&lt;br&gt;&lt;br&gt;Deny Logon from Tier 0 and Tier 1&lt;br&gt;&lt;br&gt;GSMA Service Accounts&lt;/p&gt;" vertex="1">
+          <mxGeometry height="284.6" width="284.6" x="760" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-117" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-model-design-principles&quot; class=&quot;heading-anchor&quot;&gt;Tier model design principles&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;Apply these principles when you decide whether an asset, account, or solution belongs in a particular tier:&lt;/p&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Least privilege within each tier.&lt;/strong&gt; Even within Tier 0, not every account needs Domain Admins rights. Scope permissions to the minimum required for each role.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No shared credentials across tiers.&lt;/strong&gt; An account, &lt;br&gt;service account, or group must operate in a single tier. Reusing &lt;br&gt;credentials across tiers collapses the trust boundary.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;No line-of-business workloads in Tier 0.&lt;/strong&gt; Application servers, business apps, and general-purpose workloads belong in Tier 1, even when an AD admin owns them.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Separation of duties.&lt;/strong&gt; Keep operators, approvers, &lt;br&gt;and auditors as distinct roles, especially in Tier 0. Avoid &lt;br&gt;concentrating all privileged functions in a single team.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Containment, not perimeter, is the boundary.&lt;/strong&gt; &lt;br&gt;Network segmentation supports the model but doesn&#39;t replace it. The &lt;br&gt;credential and the keyboard define the tier, not the IP address&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="520" width="520" x="220" y="-1160" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-150" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;dashed=1;dashPattern=1 1;strokeColor=light-dark(#000000,#990000);" target="FPqMHxv_qP33vrG37nPg-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-125" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#f8cecc;labelBorderColor=#b85450;imageBackground=default;imageBorder=light-dark(#000000,#660000);" value="TIER 0" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="1160" y="-328" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-131" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#666600);dashed=1;dashPattern=1 1;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FPqMHxv_qP33vrG37nPg-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-126" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#fad7ac;labelBorderColor=#b46504;imageBorder=light-dark(#000000,#CCCC00);" value="TIER 2" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="934" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-153" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#006600);dashed=1;dashPattern=1 1;strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-127" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;labelBackgroundColor=#d5e8d4;labelBorderColor=#82b366;imageBorder=light-dark(#000000,#009900);" value="TIER 3" vertex="1">
+          <mxGeometry height="68" width="56.00000000000001" x="1670" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-130" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#dae8fc;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/azure/1/Avere_vFXT.svg;labelBorderColor=#6c8ebf;" value="Azure Apps and Services" vertex="1">
+          <mxGeometry height="80" width="110.77" x="1260" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-135" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Device_Compliance.svg;" value="Managed device" vertex="1">
+          <mxGeometry height="68" width="62" x="470" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-137" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="Managed client" vertex="1">
+          <mxGeometry height="30" width="50" x="338" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-142" edge="1" parent="1" source="4FQhoqOVi--SD7Q3llwU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.032;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;strokeColor=light-dark(#000000,#666600);strokeWidth=3;" target="FPqMHxv_qP33vrG37nPg-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="170.08" />
+              <mxPoint x="850" y="170.08" />
+              <mxPoint x="850" y="31.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-154" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;strokeColor=light-dark(#000000,#006600);" target="FPqMHxv_qP33vrG37nPg-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-144" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#97D077);" value="&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;CA&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;Managed Client + Device&lt;br&gt;M365 Auth with new login and 5th day." vertex="1">
+          <mxGeometry height="154.6" width="154.6" x="1450" y="-47.3" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-151" edge="1" parent="1" source="FPqMHxv_qP33vrG37nPg-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#990000);strokeWidth=3;dashed=1;dashPattern=1 1;" target="FPqMHxv_qP33vrG37nPg-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPqMHxv_qP33vrG37nPg-146" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);fontColor=light-dark(#000000,#FF9999);" value="&lt;br&gt;&lt;div class=&quot;heading-wrapper&quot;&gt;&lt;h3 id=&quot;tier-1---enterprise-server-and-application-management&quot; class=&quot;heading-anchor&quot;&gt;CA&lt;/h3&gt;&lt;/div&gt;&lt;br&gt;Managed Client + Device&lt;br&gt;M365 Auth with new login and every day" vertex="1">
+          <mxGeometry height="140" width="140" x="1245.38" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-2" edge="1" parent="1" source="OV2fOHU2kHmPlnmYA2Vf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="4FQhoqOVi--SD7Q3llwU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-5" connectable="0" parent="OV2fOHU2kHmPlnmYA2Vf-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Employment:&amp;nbsp; Consultants" vertex="1">
+          <mxGeometry relative="1" x="-0.6647" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OV2fOHU2kHmPlnmYA2Vf-1" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" value="Manager" vertex="1">
+          <mxGeometry height="37" width="50" x="-382" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
